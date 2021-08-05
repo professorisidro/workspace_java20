@@ -26,7 +26,6 @@ public class Carro {
 	
 	// agora quero uma funcionalidade que me retorne o valor de IPVA do carro,
 	// baseado em seu preço
-	
 	// tipo nome
 	// calcularIpva é uma funcionalidade que retorna um valor
 	double calcularIpva() {
@@ -39,6 +38,4 @@ public class Carro {
 		}
 		return valoripva;
 	}
-	
-	
 }
