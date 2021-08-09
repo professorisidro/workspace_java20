@@ -14,6 +14,21 @@ public class Funcionario {
 		this.salario = salario;		
 	}
 	
+	public Funcionario(int numFuncional, String nome, String email) {
+		this.numFuncional = numFuncional;
+		this.nome = nome;
+		this.email = email;
+		this.salario = 0.0;
+	}
+	
+	public Funcionario(int numFuncional, String nome) {
+		this.numFuncional = numFuncional;
+		this.nome  = nome;
+		this.email = "** a ser atribuido **";
+		this.salario = 0.0;
+	}
+	
+	
 	public String exibir() {
 		return numFuncional +" "+nome+" ("+email+") R$ "+salario;
 	}

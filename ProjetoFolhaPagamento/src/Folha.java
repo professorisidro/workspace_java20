@@ -4,7 +4,7 @@ public class Folha {
 		
 		Funcionario f1, f2, f3;
 		f1 = new Funcionario(1122, "Isidro", "isidro@acme.com", 2000.00);
-		f2 = new Funcionario(1133, "Jose  ", "jose@acme.com  ", 3000.00);
+		f2 = new Funcionario(1133, "Jose  ");
 		f3 = new Funcionario(1144, "Pedro ", "pedro@acme.com ", 4000.00);
 		
 //		f1.setNumFuncional(1122);
