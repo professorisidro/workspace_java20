@@ -15,8 +15,7 @@ public class Concessionaria {
         v1.acelerar();
         v1.frear();
         v2.acelerar();
-        v2.frear();
-        
+        v2.frear();        
         
 	}
 
